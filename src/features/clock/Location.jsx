@@ -10,7 +10,7 @@ export default function Location({
   return (
     <LocationText>
       {locationIsSuccess &&
-        `In ${locationData.city}, ${locationData.countryCode}`}
+        `In ${locationData.cityName}, ${locationData.countryCode}`}
       {(locationIsPending || locationError) && <Skeleton count={0.5} />}
     </LocationText>
   );

@@ -1,10 +1,8 @@
-const API_URL = "http://ip-api.com";
+const API_URL = "https://freeipapi.com";
 
 export async function getGeolocation() {
   try {
-    const response = await fetch(
-      `${API_URL}/json/?fields=status,message,countryCode,city`
-    );
+    const response = await fetch(`${API_URL}/api/json/`);
 
     if (!response.ok) {
       throw new Error("There was an error in getting your location");
