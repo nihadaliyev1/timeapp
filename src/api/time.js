@@ -1,4 +1,4 @@
-const API_URL = "http://worldtimeapi.org/api";
+const API_URL = "https://worldtimeapi.org/api";
 
 export async function getTime() {
   try {

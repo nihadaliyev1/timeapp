@@ -1,4 +1,4 @@
-const API_URL = "http://ip-api.com";
+const API_URL = "https://ip-api.com";
 
 export async function getGeolocation() {
   try {
