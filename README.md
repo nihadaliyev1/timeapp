@@ -17,7 +17,7 @@ This is a web application that demonstrates users local time regardless of their
 
 ## Link
 
-- Live Site URL: [Add live site URL here](soon)
+- Live Site URL: [Click here](https://timeapp-five.vercel.app/)
 
 ## Screenshot
 
