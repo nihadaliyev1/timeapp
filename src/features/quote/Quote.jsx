@@ -9,7 +9,7 @@ import {
   QuoteAuthor,
   QuoteSection,
   QuoteText,
-} from "./QuoteStyles";
+} from "./quoteStyles";
 
 const quoteSectionVariants = {
   hidden: {
