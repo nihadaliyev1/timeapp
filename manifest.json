@@ -1,0 +1,14 @@
+{
+    "name": "Clock App",
+    "short_name": "Clock",
+    "icons": [
+        {
+            "src": "/assets/clock.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#303030",
+    "background_color": "#fbfcfe",
+    "display": "standalone"
+}
